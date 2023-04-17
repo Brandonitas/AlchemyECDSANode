@@ -9,7 +9,7 @@ label {
   display: flex;
   flex-direction: column;
   letter-spacing: 0.05rem;
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 400;
   color: #222;
 }
@@ -17,7 +17,6 @@ label {
 .app {
   display: flex;
   max-width: 1400px;
-  flex-wrap: wrap;
   gap: 12px;
   margin: 0 auto;
 }
@@ -58,7 +57,7 @@ input {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: .9em;
+  font-size: 0.9em;
   &:hover {
     cursor: pointer;
   }
@@ -67,12 +66,13 @@ input {
 .wallet {
   display: flex;
   flex-direction: column;
+  width: 50%;
 
   .balance {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
-    font-size: .9em;
+    font-size: 0.9em;
     display: inline-flex;
     margin-top: 10px;
     padding: 0.75rem;
@@ -83,4 +83,5 @@ input {
 .transfer {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
